@@ -7,12 +7,11 @@ function sendwhatsapp(){
     var message = document.querySelector("#contact-message").value;
     
     var url = "https://wa.me/" + phonenumber + "?text="
-    +"*Name :* "+name+"%0a"
-    +"*Email :* "+number+"%0a"
-    +"*Country:* "+country+"%0a"
-    +"*Message :* "+message
+    +"*Nome :* "+name+"%0a"
+    +"*Número :* "+number+"%0a"
+    +"*País:* "+country+"%0a"
+    +"*Mensagem :* "+message
     +"%0a%0a"
-    +"This is an example of send HTML form data to WhatsApp";
 
     window.open(url, '_blank');
   }
